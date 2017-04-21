@@ -1,0 +1,165 @@
+body {
+    background: url('../img/fondoverde.png') no-repeat center center fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+/*  CABECERA  */
+
+.cajaHeader{
+    border-bottom: #FF0000 5px solid;
+    margin-bottom: 10px;
+	margin-top:20px;
+}
+
+.cajaTitulo{
+    background: url('../img/headerverde.png') no-repeat center;
+    padding: 31px 0;
+	
+	
+}
+.cajaTitulo h1{
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+
+.cajaHome{
+	margin-top: 4px;
+	background: #FF0000;
+	padding: 10px 0;
+	text-align: center;
+	border-radius: 10px;
+}
+.cajaHome a{
+    color: #FFFFFF;
+	font-size: 1.3em;
+}
+.cajaHome a:hover{
+    color: #FFFFFF;
+}
+.responsive-video{
+    padding-left: 350px;
+}
+/* Cajas de Texto */
+.cajaTexto {
+    padding: 10px 15px 0 15px;
+    background: rgba(255,255,255,0.7);
+
+}
+
+.cajaTexto p {
+    color: #000;
+	font-size: 15px;
+    text-align: center; /* justificado, alineado derecha, etc */
+    font-weight: bold;
+}
+
+.cajaTexto h2{
+	color: #FF0000;
+	font-size: 25px;
+    font-weight: bold;
+	text-align: center;
+    
+}
+.cajaTexto img{
+    margin-left: 350px;
+}
+ul li {
+font-weight:bold;
+text-align:left;
+font-size:1.5em;
+}
+
+.imgLogo{
+    height: 100%;
+}
+/* INDEX */
+/* Cajones para organizar las clases */
+.tituloClases{
+	background: #FF0000;
+	margin: 0;
+	padding: 5px 0;
+	text-align: center;
+}
+
+.tituloClases a{
+	color: #fff;
+    font-size: 18px;
+}
+.tituloClases a:hover{
+	color: #e5eef5;
+}
+
+.imagenClase1{
+	/*background: #e5eef5;*/
+}
+
+
+/* SLIDER */
+/* Navegador Slider */
+.navSlider{
+    background: #FF0000;
+    padding: 15px 25px;
+}
+
+.flechas{
+    color: white;
+    font-size: 20px;
+
+}
+
+.navSlider .nextSlide{
+    float: left;
+}
+
+.navSlider .nextSlide{
+    float: right;
+}
+
+/* Slider */
+.slide{
+    display: none;
+}
+
+.active{
+    display: block;
+}
+
+/* Texto del slide */
+.slide h3{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.slide p{
+    padding-top: 13px; 
+    font-size: 12px;
+    text-align: justify;
+
+}
+
+/* miniGaleria Imagenes */
+.mini{
+    opacity: 0.5;
+    padding: 0;
+    border: solid #648dc1 2px;
+}
+.row{
+    margin-bottom: 40px;
+
+}
+
+.img-full {
+    min-width: 50%;
+    margin:0 auto;
+}
+.miniActive{
+    opacity: 1;
+    border: solid #648dc1 3px;
+}
